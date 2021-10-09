@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/wzq.dir/func.c.obj"
   "CMakeFiles/wzq.dir/main.c.obj"
   "libwzq.dll.a"
   "wzq.exe"

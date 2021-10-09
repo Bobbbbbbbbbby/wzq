@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="S:/CLion/wzq/func.c">
+			<Option target="wzq"/>
+		</Unit>
 		<Unit filename="S:/CLion/wzq/main.c">
 			<Option target="wzq"/>
 		</Unit>
