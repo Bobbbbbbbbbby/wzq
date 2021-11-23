@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-S:/CLion/wzq/main.c
+/home/bob/Source/hw/newwzq/func.c
 stdio.h
+-
+stdlib.h
+-
+wchar.h
+-
+locale.h
 -
 

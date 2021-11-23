@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\wzq.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\wzq.dir/objects.a @CMakeFiles\wzq.dir\objects1.rsp
-C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\wzq.dir/objects.a -Wl,--no-whole-archive -o wzq.exe -Wl,--out-implib,libwzq.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\wzq.dir\linklibs.rsp
+/usr/bin/cc -g CMakeFiles/wzq.dir/main.c.o CMakeFiles/wzq.dir/func.c.o -o wzq 

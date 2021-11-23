@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "S:/CLion/wzq/func.c" "S:/CLion/wzq/cmake-build-debug/CMakeFiles/wzq.dir/func.c.obj"
-  "S:/CLion/wzq/main.c" "S:/CLion/wzq/cmake-build-debug/CMakeFiles/wzq.dir/main.c.obj"
+  "/home/bob/Source/hw/newwzq/func.c" "/home/bob/Source/hw/newwzq/cmake-build-debug/CMakeFiles/wzq.dir/func.c.o"
+  "/home/bob/Source/hw/newwzq/main.c" "/home/bob/Source/hw/newwzq/cmake-build-debug/CMakeFiles/wzq.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
