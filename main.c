@@ -55,23 +55,30 @@ int main()
             for (int j = 0; j < Height; j++)
                 board[i][j] = 0;
         }
-
-        for (;;)
+        wprintf(L"Do you want to defeat my AI?\nEnter y to go to the PVE, n to go to the PVP\n");
+        char choice;
+        scanf("%c",&choice);
+        if(choice=='n')
         {
-            Player1Draw(board,new);
-            result = Check(board);
-            recordtoDisplayArray();
-            displayBoard();
-            if (result != 0)
-                break;
-            Player2Draw(board,new);
-            result = Check(board);
-            recordtoDisplayArray();
-            displayBoard();
-            if (result != 0)
-                break;
-            displayBoard();
+            for (;;)
+            {
+                Player1Draw(board, new);
+                result = Check(board);
+                recordtoDisplayArray();
+                displayBoard();
+                if (result != 0)
+                    break;
+                Player2Draw(board, new);
+                result = Check(board);
+                recordtoDisplayArray();
+                displayBoard();
+                if (result != 0)
+                    break;
+                displayBoard();
+            }
         }
+        else
+            break;
         if (result == 1)
             wprintf(L"Congratulations player 1, you win!\n");
         else if (result == 2)

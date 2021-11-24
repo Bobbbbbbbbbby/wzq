@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bob/Source/hw/newwzq/func.c
+/home/bob/Source/hw/newwzq/main.c
 stdio.h
 -
 stdlib.h

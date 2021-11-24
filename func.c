@@ -2,7 +2,6 @@
 // Created by Bobby on 2021/10/9.
 //
 #include <stdio.h>
-#include <stdlib.h>
 #include <wchar.h>
 #include <locale.h>
 #define Width 15
@@ -15,6 +14,7 @@ int An135(int board[][Height],int x,int y);
 
 void Player1Draw(int board[][Height],int new[])
 {
+    setlocale(LC_ALL, "C.UTF-8");
     wprintf(L"Player one Draw:");
     int y,x;
     scanf("%d %d",&y,&x);
@@ -42,7 +42,7 @@ void Player1Draw(int board[][Height],int new[])
 }//Let player 1 put a coin
 void Player2Draw(int board[][Height],int new[])
 {
-
+    setlocale(LC_ALL, "C.UTF-8");
     wprintf(L"Player two Draw:");
     int y,x;
     scanf("%d %d",&y,&x);
