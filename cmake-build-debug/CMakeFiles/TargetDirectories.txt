@@ -1,3 +1,3 @@
-/home/bob/Source/hw/newwzq/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bob/Source/hw/newwzq/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bob/Source/hw/newwzq/cmake-build-debug/CMakeFiles/wzq.dir
+/Users/bobby/CLionProjects/wzq/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bobby/CLionProjects/wzq/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bobby/CLionProjects/wzq/cmake-build-debug/CMakeFiles/wzq.dir

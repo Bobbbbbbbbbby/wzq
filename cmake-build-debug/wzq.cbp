@@ -8,81 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/bob/Source/hw/newwzq/cmake-build-debug"/>
+				<Option working_dir="/Users/bobby/CLionProjects/wzq/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/bob/Source/hw/newwzq/cmake-build-debug"/>
+				<Option working_dir="/Users/bobby/CLionProjects/wzq/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/bob/Source/hw/newwzq/cmake-build-debug"/>
+				<Option working_dir="/Users/bobby/CLionProjects/wzq/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wzq">
-				<Option output="/home/bob/Source/hw/newwzq/cmake-build-debug/wzq" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bob/Source/hw/newwzq/cmake-build-debug"/>
+				<Option output="/Users/bobby/CLionProjects/wzq/cmake-build-debug/wzq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bobby/CLionProjects/wzq/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 wzq"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 wzq"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wzq/fast">
-				<Option output="/home/bob/Source/hw/newwzq/cmake-build-debug/wzq" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bob/Source/hw/newwzq/cmake-build-debug"/>
+				<Option output="/Users/bobby/CLionProjects/wzq/cmake-build-debug/wzq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bobby/CLionProjects/wzq/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 wzq/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/bob/Source/hw/newwzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 wzq/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bobby/CLionProjects/wzq/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/bob/Source/hw/newwzq/func.c">
+		<Unit filename="/Users/bobby/CLionProjects/wzq/ai.c">
 			<Option target="wzq"/>
 		</Unit>
-		<Unit filename="/home/bob/Source/hw/newwzq/main.c">
+		<Unit filename="/Users/bobby/CLionProjects/wzq/func.c">
 			<Option target="wzq"/>
 		</Unit>
-		<Unit filename="/home/bob/Source/hw/newwzq/CMakeLists.txt">
+		<Unit filename="/Users/bobby/CLionProjects/wzq/main.c">
+			<Option target="wzq"/>
+		</Unit>
+		<Unit filename="/Users/bobby/CLionProjects/wzq/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -10,6 +10,8 @@
 
 void Player1Draw(int board[][Height],int new[]);
 void Player2Draw(int board[][Height],int new[]);
+void AIDrawBlack(int board[][Height],int new[]);
+void AIDrawWhite(int board[][Height],int new[]);
 int Check(int board[][Height]);
 
 void displayBoard(void);
@@ -73,6 +75,43 @@ int main()
                 recordtoDisplayArray();
                 displayBoard();
                 if (result != 0)
+                    break;
+                displayBoard();
+            }
+        }
+        else if(choice=='y')
+        {
+            wprintf(L"You first or AI first?\n");
+            scanf("%c",&choice);
+            if(choice=='b')
+            {
+                AIDrawBlack(board,new);
+                result= Check(board);
+                recordtoDisplayArray();
+                displayBoard();
+                if(result!=0)
+                    break;
+                Player2Draw(board,new);
+                result= Check(board);
+                recordtoDisplayArray();
+                displayBoard();
+                if(result!=0)
+                    break;
+                displayBoard();
+            }
+            else if(choice=='w')
+            {
+                Player1Draw(board,new);
+                result= Check(board);
+                recordtoDisplayArray();
+                displayBoard();
+                if(result!=0)
+                    break;
+                AIDrawWhite(board,new);
+                result= Check(board);
+                recordtoDisplayArray();
+                displayBoard();
+                if(result!=0)
                     break;
                 displayBoard();
             }

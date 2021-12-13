@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/wzq.dir/ai.c.o"
+  "CMakeFiles/wzq.dir/ai.c.o.d"
   "CMakeFiles/wzq.dir/func.c.o"
+  "CMakeFiles/wzq.dir/func.c.o.d"
   "CMakeFiles/wzq.dir/main.c.o"
+  "CMakeFiles/wzq.dir/main.c.o.d"
   "wzq"
   "wzq.pdb"
 )
