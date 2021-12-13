@@ -25,12 +25,12 @@ void Player1Draw(int board[][Height],int new[])
         if(!((x>=0&&x<=Width)&&(y>=0&&y<=Height)))
         {
             wprintf(L"Bad input, try again\n");
-            scanf("%d %d",&x,&y);
+            scanf("%d %d",&y,&x);
         }
         if (board[15-x][y-1]!=0)
         {
             wprintf(L"Bad input, try again\n");
-            scanf("%d %d",&x,&y);
+            scanf("%d %d",&y,&x);
         }
         else
         {
@@ -53,12 +53,12 @@ void Player2Draw(int board[][Height],int new[])
         if(!((x>=0&&x<=Width)&&(y>=0&&y<=Height)))
         {
             wprintf(L"Bad input, try again\n");
-            scanf("%d %d",&x,&y);
+            scanf("%d %d",&y,&x);
         }
         if (board[15-x][y-1]!=0)
         {
             wprintf(L"Bad input, try again\n");
-            scanf("%d %d",&x,&y);
+            scanf("%d %d",&y,&x);
         }
         else
         {
